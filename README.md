@@ -1,4 +1,5 @@
 
+
 <div align="center">
 
 ![how-refine-works](https://github.com/cano696969/2D-unity-URP/assets/158393938/57ad60f6-fd2e-43a8-bf3e-00cc376e5137)
@@ -499,3 +500,169 @@ Descubra recursos adicionales y herramientas que pueden mejorar su experiencia d
 
 - [Recursos y Herramientas Adicionales](enlace_a_recursos_adicionales)
 
+
+
+
+-------
+
+
+# Recursos para el Proyecto de Game 2D 
+
+En este curso intensivo de desarrollo de juegos 2D en Unity, aprenderás a descargar e instalar los recursos artísticos utilizados en el proyecto. También crearemos la estructura básica de directorios en la carpeta de activos para mantener las cosas organizadas de manera eficiente.
+
+## Descripción del capitulo 
+
+Descarga e instalación de los recursos artísticos utilizados en el proyecto. También creamos la estructura básica de directorios en la carpeta de activos para mantener las cosas organizadas de manera eficiente.
+
+
+---
+
+## rvros-adventurer
+- [Download](https://rvros.itch.io/animated-pixel-hero)
+- Description: Adventurer 1.5, Hand Combat, Bow
+
+## freeknight
+- [Download](https://aamatniekss.itch.io/fantasy-knight-free-pixelart-animated-character)
+
+## fonts
+- [Download](https://managore.itch.io/m5x7)
+- Description: Typeface / Font
+
+## freecutetileset
+- [Download](https://aamatniekss.itch.io/free-pixelart-tileset-cute-forest)
+- Description: For Tilesets
+
+## henrysoftware-freepixelfood
+- [Download (Sprite folder only)](https://henrysoftware.itch.io/pixel-food)
+- Description: Free Pixel Food (Health Pickups)
+
+## kyrises-rpg-icon-pack
+- [Download](https://kyrise.itch.io/kyrises-free-16x16-rpg-icon-pack)
+
+## luizmelo_Monsters_Creatures_Fantasy
+- [Download](https://luizmelo.itch.io/monsters-creatures-fantasy)
+- Description: FOR MONSTERS (GET 1.0 and then add 1.2 & 1.3 to it)
+
+## 10 Battle1 (8bit style)
+- [Download](https://youfulca.itch.io/legendary-jrpg-battle-music-pack/)
+- Description: 8bit Battle 1 Music
+
+## RPG_Essentials_Free
+- [Download](https://leohpaz.itch.io/rpg-essentials-sfx-free)
+- Description: SFX
+
+
+ that showcases all of Unity’s 2D tools working together. This visually compelling demo of a side-scrolling game was featured in the Unite Copenhagen keynote. We created it with Unity 2019.3 Beta and it uses the Universal Render Pipeline. 
+
+
+
+-----
+# Installing packages & Cinemachine InputSystem
+
+
+## Cómo utilizar el Package Manager para instalar Cinemachine e Input System 
+
+
+
+Descubre cómo utilizar el Package Manager para instalar las herramientas Cinemachine e Input System en Unity 2022. Este paso es esencial para mejorar la funcionalidad de tu juego 2D.# Syllabus Index
+
+
+1. [Instalación de Cinemachine e InputSystem](#instalacion-de-cinemachine-e-inputsystem)
+2. [Opciones de Playmode - Desactivando Reload Domain](#opciones-de-playmode-desactivando-reload-domain)
+
+---
+
+## Introducción
+
+
+## Instalación de Cinemachine e InputSystem
+- Utilizando el Package Manager
+- Instalación de Cinemachine
+- Instalación de InputSystem
+
+## Opciones de Playmode - Desactivando Reload Domain
+- Optimizando el Tiempo de Desarrollo
+- Configuración de Playmode
+- Desactivando Reload Domain
+
+
+![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FcNpDoWDZ6aye8RiLzSAM%2Fuploads%2Fhcf1q1cYAozXBQN4aXAi%2Fimage.png?alt=media&token=b2af8ac4-0dff-4664-872c-95b0c4d08795)
+
+
+
+Menú de Cinemachine en el Editor de Unity
+
+Requisitos Cinemachine no tiene dependencias externas. Simplemente instálalo y comienza a usarlo. Si también estás utilizando el Post Processing Stack (versión 2), se proporcionan módulos adaptadores protegidos por directivas ifdef, que se definen automáticamente si se detecta la presencia del Post Processing Stack.
+
+Existen comportamientos similares protegidos por ifdef para otros paquetes, como HDRP Volumes, Timeline y Pixel-Perfect.
+
+Esta versión de Cinemachine es compatible con las siguientes versiones del Editor de Unity:
+
+2019.4 y posteriores
+
+
+
+### 
+
+Insalacion de Input System
+
+[](#insalacion-de-input-system)
+
+Instalación del paquete Para instalar el nuevo Sistema de Entrada, abre el administrador de paquetes de Unity (menú: Window > Package Manager). Selecciona el paquete Input System de la lista y luego haz clic en Instalar.
+
+Instalar paquete Input System
+
+
+
+![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FcNpDoWDZ6aye8RiLzSAM%2Fuploads%2FXm87NcTSqpBCmEh2YFSc%2Fimage.png?alt=media&token=d04e54ea-7bb3-4b11-8fa7-6a630da975d4)
+
+
+
+![](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/images/InputSystemPackage.png)
+
+
+
+
+
+
+### 
+
+EHabilitar los nuevos backends de entrada
+
+[](#enabling-the-new-input-backends)
+
+Habilitar los nuevos backends de entrada Por defecto, el antiguo Administrador de Entrada de Unity (UnityEngine.Input) está activo y el soporte para el nuevo Sistema de Entrada está inactivo. Esto permite que los proyectos existentes de Unity sigan funcionando como están.
+
+Cuando instalas el paquete Input System, Unity te preguntará si quieres habilitar los nuevos backends. Si haces clic en Sí, Unity habilitará los nuevos backends y desactivará los antiguos, y el Editor se reiniciará.
+
+![](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/images/EditorRestartWarning.png)
+
+Editor Restart Warning
+
+Cuando instalas el paquete Input System, Unity te preguntará si quieres habilitar los nuevos backends. Si haces clic en Sí, Unity habilitará los nuevos backends y desactivará los antiguos, y el Editor se reiniciará.
+
+Advertencia de reinicio del Editor
+
+Puedes encontrar la configuración correspondiente en la configuración del reproductor (menú: Edit > Project Settings > Player), en Active Input Handling. Puedes cambiar esta configuración en cualquier momento. Hacerlo reiniciará el Editor.
+
+> Nota: Puedes habilitar tanto el sistema antiguo como el nuevo al mismo tiempo. Para hacerlo, establece Active Input Handling en Both.
+
+![](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/images/ActiveInputHandling.png)
+
+Active Input Handling
+
+Cuando los nuevos backends de entrada están habilitados, la directiva C# ENABLE_INPUT_SYSTEM=1 se agrega a las compilaciones. De manera similar, cuando los antiguos backends de entrada están habilitados, se agrega la directiva C# ENABLE_LEGACY_INPUT_MANAGER=1. Debido a que ambos pueden estar habilitados al mismo tiempo, es posible que ambas directivas tengan el valor 1 al mismo tiempo.
+
+### 
+
+IInstalación de ejemplos
+
+[](#installing-samples)
+
+El paquete Input System viene con varios ejemplos. Puedes instalarlos directamente desde la ventana del Administrador de Paquetes en Unity (menú: Window > Package Manager). Para ver la lista, selecciona el paquete Input System en la ventana del Administrador de Paquetes. Haz clic en Importar en el Proyecto junto a un ejemplo para copiarlo en el Proyecto actual.
+
+![](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/images/InstallSamples.png)
+
+Install Samples
+
+For a more comprehensive demo project for the Input System, see the [InputSystem_Warriors](https://github.com/UnityTechnologies/InputSystem_Warriors) GitHub repository.
